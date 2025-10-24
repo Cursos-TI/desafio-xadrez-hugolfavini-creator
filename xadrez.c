@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    // Constantes de movimento das peças
+    // Variáveis para movimento de peças
     int movimentoBispo = 5;
     int movimentoTorre = 5;
     int movimentoRainha = 8;
 
     int i;
 
-    // Movimento do Bispo: Para diagonal superior direita
+    // Movimento do Bispo: Na diagonal superior para a direita
     printf("Movimento do Bispo:\n");
     for (i = 0; i < movimentoBispo; i++) {
         printf("Cima\n");
